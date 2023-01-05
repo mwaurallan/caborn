@@ -438,7 +438,8 @@
 			//{!! $receipt_details->footer_text !!}
 
 			<div>
-				<P align="center"><h3>Till No:000000</h3></P>
+				<P align="center"><h3>Paybill No:303030</h3></P>
+				<P align="center"><h3>Account Number:2046183021</h3></P>
 				<P><h3>Thank you For Shopping With Us!!!!</h3></P>
 			</div>
 		</div>Software By Savannabits Ltd-0725263425
