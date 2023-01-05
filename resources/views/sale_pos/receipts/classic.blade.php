@@ -438,7 +438,7 @@
 			//{!! $receipt_details->footer_text !!}
 
 			<div>
-				<P align="center"><h3>Till No:8012484</h3></P>
+				<P align="center"><h3>Till No:000000</h3></P>
 				<P><h3>Thank you For Shopping With Us!!!!</h3></P>
 			</div>
 		</div>Software By Savannabits Ltd-0725263425
