@@ -4,7 +4,8 @@
 			<td>
 
 			<p class="text-right color-555">
-				@lang('lang_v1.packing_slip')
+{{--				@lang('lang_v1.packing_slip')--}}
+				<strong><p>DELIVERY NOTE:</p></strong>
 			</p>
 
 			</td>
