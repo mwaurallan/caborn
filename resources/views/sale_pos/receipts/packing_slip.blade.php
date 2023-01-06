@@ -3,9 +3,10 @@
 		<tr>
 			<td>
 
-			<p class="text-center color-555">
+			<p class="text-center font-30">
 {{--				@lang('lang_v1.packing_slip')--}}
 				<strong>DELIVERY NOTE:</strong>
+{{--				<p class="text-right font-30">--}}
 			</p>
 
 			</td>
