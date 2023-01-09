@@ -91,12 +91,15 @@
 
 		<!-- customer info -->
 		@if(!empty($receipt_details->customer_name))
-			{{ $receipt_details->customer_name }}<br>
+				<p class="font-30">
+					{{ $receipt_details->customer_name }}</p><br>
 		@endif
 		@if(!empty($receipt_details->customer_info))
-			{!! $receipt_details->customer_info !!}
+				<p class="font-30">
+					{!! $receipt_details->customer_info !!}
 		@endif
 		@if(!empty($receipt_details->client_id_label))
+				</p>
 			<br/>
 			<strong>{{ $receipt_details->client_id_label }}</strong> {{ $receipt_details->client_id }}
 		@endif
