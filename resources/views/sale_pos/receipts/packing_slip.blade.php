@@ -146,7 +146,7 @@
 			</thead>
 			<tbody>
 				@foreach($receipt_details->lines as $line)
-					<tr>
+					<tr class="font-30">
 						<td class="text-center">
 							{{$loop->iteration}}
 						</td>
