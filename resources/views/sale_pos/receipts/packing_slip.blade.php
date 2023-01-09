@@ -85,7 +85,8 @@
 	<br/>
 	<div class="col-md-6 invoice-col width-50 word-wrap">
 		@if(!empty($receipt_details->customer_label))
-			<b>{{ $receipt_details->customer_label }}</b><br/>
+			<p class="font-30">
+				<b>{{ $receipt_details->customer_label }}</b></p><br/>
 		@endif
 
 		<!-- customer info -->
