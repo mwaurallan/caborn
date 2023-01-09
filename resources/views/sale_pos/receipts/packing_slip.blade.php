@@ -96,23 +96,26 @@
 		@endif
 		@if(!empty($receipt_details->customer_info))
 				<p class="font-30">
-					{!! $receipt_details->customer_info !!}
+					{!! $receipt_details->customer_info !!}</p>
 		@endif
 		@if(!empty($receipt_details->client_id_label))
-				</p>
 			<br/>
+				<p class="font-30">
 			<strong>{{ $receipt_details->client_id_label }}</strong> {{ $receipt_details->client_id }}
+				</p>
 		@endif
 		@if(!empty($receipt_details->customer_tax_label))
 			<br/>
-			<strong>{{ $receipt_details->customer_tax_label }}</strong> {{ $receipt_details->customer_tax_number }}
+				<p class="font-30">
+					<strong>{{ $receipt_details->customer_tax_label }}</strong> {{ $receipt_details->customer_tax_number }}</p>
 		@endif
 		@if(!empty($receipt_details->customer_custom_fields))
 			<br/>{!! $receipt_details->customer_custom_fields !!}
 		@endif
 		@if(!empty($receipt_details->sales_person_label))
 			<br/>
-			<strong>{{ $receipt_details->sales_person_label }}</strong> {{ $receipt_details->sales_person }}
+				<p class="font-30">
+					<strong>{{ $receipt_details->sales_person_label }}</strong> {{ $receipt_details->sales_person }}</p>
 		@endif
 	</div>
 	<div class="col-md-6 invoice-col width-50 word-wrap">
@@ -130,11 +133,14 @@
 					<td style="background-color: #357ca5 !important; color: white !important; width: 5% !important">#</td>
 
 					<td style="background-color: #357ca5 !important; color: white !important; width: 65% !important">
-						{{$receipt_details->table_product_label}}
+						<p class="font-30">
+							{{$receipt_details->table_product_label}}</p>
 					</td>
 
 					<td style="background-color: #357ca5 !important; color: white !important; width: 30% !important;">
+						<p class="font-30">
 						{{$receipt_details->table_qty_label}}
+						</p>
 					</td>
 				</tr>
 			</thead>
