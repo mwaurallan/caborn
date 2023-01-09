@@ -30,7 +30,7 @@
 
 		<!-- Shop & Location Name  -->
 		@if(!empty($receipt_details->display_name))
-			<p>
+			<p class="font-30">
 				{{$receipt_details->display_name}}
 				@if(!empty($receipt_details->address))
 					<br/>{!! $receipt_details->address !!}
